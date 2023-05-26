@@ -17,6 +17,14 @@ chat Finetune 과정은 [KoChatGPT](https://github.com/airobotlab/KoChatGPT) 을
 
 ColossalAI는 현재 사용한 gpt-neox 기반의 모델을 지원하지 않아 [KoChatGPT-수정](https://github.com/HaloKim/KoChatGPT.git) 을 수정하여 적용하였습니다.
 
+각 스텝에서 세션을 초기화후 진행하길 권장드립니다.
+
+[chatKoAlpaca](https://github.com/HaloKim/chatKoAlpaca)
+
+* 문제점
+
+결과만 보면 나쁘지 않아 보이지만 Loss가 0으로 나오는 것으로 보아 문제로 보입니다. 확인이 필요합니다.
+
 # Pipeline
 
 ![image](https://github.com/HaloKim/chatKoAlpaca/assets/44603549/7affcdb9-b566-42fc-838f-f6012edeae7e)
